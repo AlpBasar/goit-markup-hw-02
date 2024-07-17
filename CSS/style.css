@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
     font-weight: normal;
@@ -26,19 +26,29 @@ body{
 
 }
 .logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.;
     letter-spacing: 0.02em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #434455;
 }
 
-.logo :hover{
+.logo:hover{
     color: #404bbf;
 }
-.logo :focus{
+.logo:focus{
+    color: #404bbf;
+}
+.li-desc{
+    color: #434455;
+
+}
+.li-desc:hover{
+    color: #404bbf;
+}
+.li-desc:focus{
     color: #404bbf;
 }
 
