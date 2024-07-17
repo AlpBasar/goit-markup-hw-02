@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -10,14 +9,41 @@ body{
     line-height: 24px;
     letter-spacing: 2%;
 }
+.h2{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+.h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
 .logo {
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: #2e2f42;
+}
+
+.logo :hover{
+    color: #404bbf;
+}
+.logo :focus{
+    color: #404bbf;
+}
+
+.address{
+    font-style: normal;
 }
 .span {
     color: #2E2F42;
@@ -32,6 +58,14 @@ body{
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+}
+
+.content{
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #434455;
+    
 }
 .our-team{
     background-color: #F4F4FD;
@@ -51,7 +85,7 @@ body{
     border: solid 1px black;
 }
     
-.button{
+.butto{
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -60,6 +94,13 @@ body{
     background-color: #4D5AE5;
     color: #FFFFFF;
     cursor: pointer;
+
+}
+.butto:hover{
+    background-color: #404BBF;
+}
+.butto:focus{
+    background-color: #404BBF;
 }
 footer{
     background-color: #2E2F42;
